@@ -1,0 +1,28 @@
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<div data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"/>
+<div data-sly-call="${clientLib.css @ categories=['apps.singtelswitchablecanvas']}" />
+<div data-sly-call="${clientLib.js @ categories=['apps.singtelswitchablecanvas']}" />
+
+
+<div id="gdlSlider">
+<div class="infiniteSliderContainer" id="bigSliderContainer">
+   <div id="bigSlider" class="infiniteSlider">
+
+<div data-sly-use.outer="${'sdsingtel/components/content/Switchable_Canvas/clientlib/js/convertToJson.js' @ fieldName = 'canvas',fieldValue = ''}"  data-sly-unwrap>
+   <div data-sly-list.canvas="${outer.listJson}" data-sly-unwrap>
+
+
+      <img coords="29,351,213,378" shape="rect" href="http://www.newsloop.co/" src="${canvas.bigimage}"/>
+      <div> <img src="${canvas.icon}" /> </div>
+      <a href="${canvas.link}">amped</a>
+
+
+   </div>
+</div>
+<div style="clear:both" />
+
+<div class="infiniteSliderContainer" id="smallSliderContainer">
+   <div id="smallSlider" class="infiniteSlider">
+
+   </div>
+</div>

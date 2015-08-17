@@ -1,0 +1,194 @@
+div.infiniteSliderContainer {
+		/*display:absolute;*/
+		width:714px;
+		overflow:hidden;
+		z-index:0;
+	}
+	
+	#smallSliderContainer {
+		height:95px;	
+	}
+	
+	#bigSliderContainer {
+		height:429px;	
+	}
+
+	div.infiniteSlider {
+		display:absolute;
+		z-index:0;
+		overflow:visible;
+	}
+	
+	div#smallSlider {
+		width:1020px;
+		margin-left:-112px;
+	}
+	
+	div#bigSlider {
+	   width:7140px;
+           margin-left:-2856px;
+	}
+
+	div.thumbIcon {
+		width:103px;
+		height:93px;
+		text-align:center;
+		vertical-align:middle;
+		border:1px solid #d9dbd5;
+		border-right:none;
+		background: url('/sites/default/files/about-us/gdl/icon_bg2.png');
+		display:inline-block;
+		zoom: 1;
+		*display: inline;
+		overflow:hidden;
+		box-shadow:inset 0px 0px 2px #d9dbd5; 
+		-moz-box-shadow: 0px 0px 2px #d9dbd5; /* Firefox */  
+		-webkit-box-shadow: 0px 0px 2px #d9dbd5;  /* Safari, Chrome */  
+	}
+	
+	div.bigPicture {
+		width:714px;
+		height:429px;
+		text-align:center;
+		vertical-align:middle;
+		display:inline-block;
+		zoom: 1;
+		*display: inline;
+		overflow:hidden;
+	}
+
+	.thumbIcon img {
+		margin-top:13px;
+		margin-left:0px;
+		height:51px;
+		margin-bottom:6px;
+	}
+	
+	div.thumbIcon div.iconText {
+		font-family:"Helvetica",Arial,sans-serif;
+		font-size:11px;
+		font-weight:bold;
+		color:#5a5f5f;
+		text-shadow: 1px 0px 2px #cccccc;
+	}
+	
+	.bigPic {
+		width:714px;
+		height:429px;
+	}
+
+	div.advanceButton {
+		position:absolute;
+		height:93px;
+		background:#ffffff;
+		width:34px;
+		z-index:10;
+		margin-top:-95px;
+		border:1px solid #d9dbd5;
+	}
+	
+	div.fader {
+		position:absolute;
+		height:94px;
+		background:#ffffff;
+		width:10px;
+		z-index:10;
+		margin-top:-95px;
+		pointer-events:none;
+	}
+	
+	#leftFader {
+		margin-left:36px;
+		background:url('/sites/default/files/about-us/gdl/left_fader.png');
+	}
+
+	#rightFader {
+		margin-left:668px;
+		background:url('/sites/default/files/about-us/gdl/right_fader.png');
+	}
+
+	#leftAdvanceButton {
+		background:url('/sites/default/files/about-us/gdl/left_arrow.png');
+	}
+
+	#rightAdvanceButton {
+		margin-left:678px;
+		background:url('/sites/default/files/about-us/gdl/right_arrow.png');
+	}
+
+	div.thumbIcon:nth-child(5) {
+		background:#ffffff;
+		color:#ff0000;
+		box-shadow:4px 0px 8px #999999;
+		-moz-box-shadow: 4px 0px 8px #999999; /* Firefox */  
+		-webkit-box-shadow: 4px 0px 8px #999999; /* Safari, Chrome */   
+	}
+	
+	div.thumbIcon:nth-child(5) div.iconText {
+		color:#ff0000;
+	}
+
+	div#trianglePointer {
+		width: 9px;
+		height: 8px;
+		position:absolute;
+		margin-top:-102px;
+		margin-left:350px;
+		z-index:10;
+		background:url('/sites/default/files/about-us/gdl/triangle.png');
+	}
+	
+	div#dotContainer {
+		width: auto;
+		height: 6px;
+		position:absolute;
+		margin-top:-112px;
+		margin-left:304px;
+		z-index:10;	
+	}
+	
+	.dotIndicator {
+		position:relative;
+		width:0px;
+		height:0px;
+		padding:3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px; 
+		border-radius: 3px;
+		background:#c7c9c7;
+		margin:2px;
+		display:inline;
+		overflow:hidden;
+		line-height:1px;
+		font-size:1px;
+	}
+	
+	.activeDot {
+		background:#394347;	
+	}
+	
+	div#gdlSlider {
+		width:714px;
+                margin-top:240px;
+	}
+
+       .about_prefooter {
+               background:url(/sites/default/files/about-us/gdl/footer_bg_repeat.png) bottom center repeat-x;
+       }
+
+#body .about-title {
+               background:url(/sites/default/files/about-us/gdl/footer_top_repeat_0.png) top left repeat-x;
+}
+
+div.about-title h1 {
+visibility:hidden;
+}
+
+.topFader {
+        background:url(/sites/default/files/about-us/gdl/fader.png) top left repeat-x;
+        position:absolute;
+        top:-130px;
+        left:-100%;
+        width:300%;
+        height:20px;
+}
